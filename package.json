@@ -1,0 +1,48 @@
+{
+  "name": "nextjs-lineit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "prebuild": "node prebuild.js",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "npm run build && next export"
+  },
+  "resolutions": {
+    "react": "^18.2.0",
+    "@types/react": "^18.0.17",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.13",
+    "@notionhq/client": "^2.2.3",
+    "animate.css": "^4.1.1",
+    "dayjs": "^1.11.7",
+    "framer-motion": "^10.11.2",
+    "next": "13.2.4",
+    "nextjs-progressbar": "^0.0.16",
+    "notion-to-md": "^2.5.5",
+    "react": "18.2.0",
+    "react-collapse": "^5.1.1",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-image-gallery": "^1.2.11",
+    "react-markdown": "^8.0.6",
+    "remark": "^14.0.3",
+    "remark-html": "^15.0.2",
+    "wow.js": "^1.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-react": "^7.18.6",
+    "@tailwindcss/typography": "^0.5.9",
+    "autoprefixer": "^10.4.14",
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.2.4",
+    "frontmatter-markdown-loader": "^3.7.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.0"
+  }
+}
